@@ -55,10 +55,20 @@
         
         /* Here, we are defining the click event's logic that will be performed when the button is clicked */
         function button1clicked() {
-            text1.innerText = "button 1 clicked"
+            text1.innerText = "button 1 clicked";
         }
 
         //    start coding here
+        var button2 = document.getElementById("button2");
+
+        button2.onclick = button2clicked;
+
+        var text2 = document.getElementById("text2");
+
+        function button2clicked(){
+            text2.innerText = "button 2 clicked";
+        }
+
 
 
         /* OPTIONAL PRACTICE: If you want more practice later, try using a button to alter text of a tag
