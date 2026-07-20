@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SeleniumTest.java",
+      "testCases": [
+        {
+          "methodName": "testButton1",
+          "label": "Verify Button 1 click functionality",
+          "description": "Checks that the initial text is correct, clicks Button 1, and verifies the displayed text updates accordingly."
+        },
+        {
+          "methodName": "testButton2",
+          "label": "Verify Button 2 click functionality",
+          "description": "Checks that the initial text is correct, clicks Button 2, and verifies the displayed text updates accordingly."
+        }
+      ]
+    }
+  ]
+}
